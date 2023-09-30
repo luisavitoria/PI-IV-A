@@ -7,10 +7,8 @@ export default function Card_Project({ title, image, link }) {
             <h6 className="text-purple">{title}</h6>
 
             <div className="pt-2 hover:opacity-50 ease-in">
-                <a href={link}>
-
+                <a href={link} target="blank">
                     <img src={image} className="rounded-sm" alt="" />
-
                 </a>
             </div>
         </div>
